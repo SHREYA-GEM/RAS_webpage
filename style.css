@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:wght@600&display=swap');
+
+
+#text-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0); /* Background color with opacity */
+  padding: 20px;
+  border-radius:25px
+}
+header{
+  font-family:poppins ;
+  font-weight:bolder;
+  position:fixed ;
+  width: 100%; 
+  z-index: 1;
+}
+#home img{
+    opacity: 0.4;
+}
+#home h1{
+  font-family:'Montaga', serif;
+  font-size: 80px;
+  text-align: center;
+  color: #100f0f;
+  
+}
+#home p{
+  font-family:'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-style:italic ;
+  color: #100f0f;
+}
+
+h1{
+  font-family:'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight:900;
+}
+#about,p ,#faq li{
+  font-family: poppins;
+}
+#faq li{
+  font-weight: bolder;
+}
+
+.custom-shadow{  /*used in gallery*/
+  box-shadow: -10px -7px 28px 15px rgba(96, 89, 87, 0.4);
+}
+ #about,#faq,#gallery,#upcoming,#recent,#contact{
+  padding: 90px;
+ }
+
